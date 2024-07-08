@@ -1,13 +1,90 @@
  *{
-    margin: 0;
-    padding: 0;
-
+    font-family: 'Montserrat';
  }
+
+/* Import Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+font-family: 'Montserrat', sans-serif;
+	color: #161C91;
+}
+
+h3 {
+font-family: 'Montserrat', sans-serif;
+	color: #4A4DE7;
+}
+
+h4 {
+font-family: 'Montserrat', sans-serif;
+	color: #white;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+clrtran { /* color transition from logo to main */
+background: linear-gradient(to bottom, #F1FAFB, white);
+height: 30vh;
+}
+	
 
  .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(i.jpg );
+    <!-- background: linear-gradient(to bottom, rgba(255,0,0,0.5), rgba(0,0,0,0.5)); -->
     background-position: center;
     background-size: cover; 
     height: 100vh;
  }
+
+.navbar {
+    text-align: center; /* Centers all inline and inline-block elements inside .navbar */
+}
+
+
+.icon {
+    background: #F1FAFB;
+}
+.logo {
+    height: 450px; /* Adjust the height of the logo as needed */
+    display: inline-block; /* Ensures block-level element behavior */
+}
+
+
+
+#section1 {
+    background-color: #FFFFFF; 
+    margin: 5px;
+    padding: 10px;
+    color: black; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+#section2 { /* section with highlighted background */
+    background-color: #A0E4F1;
+    margin: 0px;
+    padding: 10px;
+    color: #161C91; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer { /* section for contacts and all */
+    background-color: #4A4DE7;
+    padding: 10px; 
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+}
