@@ -24,11 +24,6 @@ font-family: 'Montserrat', sans-serif;
 	color: #4A4DE7;
 }
 
-h4 {
-font-family: 'Montserrat', sans-serif;
-	color: #white;
-}
-
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -119,9 +114,29 @@ height: 30vh;
     font-family: 'Montserrat', serif;
 }
 
-#footer { /* section for contacts and all */
+.footer {
+    display: flex;
+    justify-content: space-between;
     background-color: #4A4DE7;
     padding: 10px; 
     color: white; 
     font-family: 'Montserrat', sans-serif;
+}
+
+.footer-section {
+    width: 45%; /* Adjust width as needed */
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
 }
