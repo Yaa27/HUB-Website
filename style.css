@@ -115,6 +115,10 @@ height: 30vh;
     font-family: 'Montserrat', sans-serif;
 }
 
+#section2 b {
+    font-family: 'Montserrat', serif;
+}
+
 #footer { /* section for contacts and all */
     background-color: #4A4DE7;
     padding: 10px; 
