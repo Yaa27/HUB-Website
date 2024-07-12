@@ -74,6 +74,39 @@ height: 30vh;
 
 }
 
+.achievements {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.heading-row {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content-row {
+    display: flex; /* Flexbox container for columns */
+    flex-wrap: wrap; /* Allow wrapping items */
+}
+
+.text-column p {
+	text-align: left;
+}
+
+.text-column {
+    flex: 1; /* Take up remaining space */
+    padding-right: 20px; /* Space between columns */
+}
+
+.photo-column {
+    width: 30%; /* Adjust width as needed */
+}
+
+.placeholder-photo {
+    background-color: #ccc; /* Placeholder styling */
+    height: 300px; /* Adjust height as needed */
+}
+
+
 #section2 { /* section with highlighted background */
     background-color: #A0E4F1;
     margin: 0px;
