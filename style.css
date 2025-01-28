@@ -38,10 +38,10 @@ height: 30vh;
 
  .main{
     width: 100%;
-    <!-- background: linear-gradient(to bottom, rgba(255,0,0,0.5), rgba(0,0,0,0.5)); -->
+    background: linear-gradient(to bottom, rgba(255,0,0,0.5), rgba(0,0,0,0.5)); 
     background-position: center;
-    background-size: cover; 
-    height: 100vh;
+    background-size: contain;
+    height: 300vh;
  }
 
 .navbar {
@@ -50,7 +50,7 @@ height: 30vh;
 
 
 .icon {
-    background: #F1FAFB;
+    background: #ffffff;
 }
 .logo {
     height: 450px; /* Adjust the height of the logo as needed */
@@ -139,7 +139,4 @@ height: 30vh;
 
 .footer-section ul li {
     margin-bottom: 5px;
-<<<<<<< HEAD
 }
-}
->>>>>>> 9052bb6abe8e103a30c3d273f7e845a2c89301a7
