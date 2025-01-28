@@ -1,142 +1,111 @@
- *{
-    font-family: 'Montserrat';
- }
-
-/* Import Montserrat font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-
+/* General Styles */
 body {
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
-}
-
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
 }
 
 h2 {
-font-family: 'Montserrat', sans-serif;
-	color: #161C91;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #004aad;
 }
 
 h3 {
-font-family: 'Montserrat', sans-serif;
-	color: #4A4DE7;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #555;
 }
-
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #666;
 }
 
-
-clrtran { /* color transition from logo to main */
-background: linear-gradient(to bottom, #F1FAFB, white);
-height: 30vh;
-}
-	
-
- .main{
-    width: 100%;
-    background: linear-gradient(to bottom, rgba(255,0,0,0.5), rgba(0,0,0,0.5)); 
-    background-position: center;
-    background-size: contain;
-    height: 300vh;
- }
-
+/* Navbar */
 .navbar {
-    text-align: center; /* Centers all inline and inline-block elements inside .navbar */
+    background: #004aad;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-.icon {
-    background: #ffffff;
-}
-.logo {
-    height: 450px; /* Adjust the height of the logo as needed */
-    display: inline-block; /* Ensures block-level element behavior */
+.navbar .logo {
+    max-height: 50px;
 }
 
+/* Section Styles */
+.section {
+    padding: 2rem 3rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
 
+.vision-goals {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
 
-#section1 {
-    background-color: #FFFFFF; 
-    margin: 5px;
-    padding: 10px;
-    color: black; 
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-
+.vision-goals div {
+    flex: 1;
 }
 
 .achievements {
-    padding: 20px;
-    margin-bottom: 20px;
+    margin-top: 2rem;
 }
 
-.heading-row {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.content-row {
-    display: flex; /* Flexbox container for columns */
-    flex-wrap: wrap; /* Allow wrapping items */
+/* Competition Section */
+.competition-details {
+    margin-top: 2rem;
 }
 
-.text-column p {
-	text-align: left;
+.prize-eligibility {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
 }
 
-.text-column {
-    flex: 1; /* Take up remaining space */
-    padding-right: 20px; /* Space between columns */
+.prize-eligibility div {
+    flex: 1;
 }
 
-.photo-column {
-    width: 30%; /* Adjust width as needed */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #004aad;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: background 0.3s;
 }
 
-.placeholder-photo {
-    background-color: #ccc; /* Placeholder styling */
-    height: 300px; /* Adjust height as needed */
+.btn:hover {
+    background: #003088;
 }
 
-
-#section2 { /* section with highlighted background */
-    background-color: #A0E4F1;
-    margin: 0px;
-    padding: 10px;
-    color: #161C91; 
-    font-family: 'Montserrat', sans-serif;
+/* Footer */
+footer {
+    background: #004aad;
+    color: #fff;
+    padding: 2rem;
 }
 
-#section2 b {
-    font-family: 'Montserrat', serif;
-}
-
-.footer {
+footer .footer-content {
     display: flex;
     justify-content: space-between;
-    background-color: #4A4DE7;
-    padding: 10px; 
-    color: white; 
-    font-family: 'Montserrat', sans-serif;
 }
 
-.footer-section {
-    width: 45%; /* Adjust width as needed */
-}
-
-.footer-section h3 {
-    margin-bottom: 10px;
-    color: white;
-}
-
-.footer-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 5px;
+footer a {
+    color: #f9c74f;
+    text-decoration: none;
 }
