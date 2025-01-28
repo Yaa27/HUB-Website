@@ -68,6 +68,7 @@ pw {
 
 .vision-goals div {
     flex: 1;
+    text-align: center;
 }
 
 .achievements {
@@ -83,10 +84,12 @@ pw {
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
+    
 }
 
 .prize-eligibility div {
     flex: 1;
+    text-align: center;
 }
 
 .btn {
